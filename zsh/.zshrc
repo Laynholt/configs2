@@ -80,7 +80,6 @@ compinit
 # Plugins
 source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.config/zsh/plugins/zsh-completions/zsh-completions.plugin.zsh
-source ~/.config/zsh/plugins/zsh-autopair/autopair.zsh
 source ~/.config/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.config/zsh/plugins/sudo/sudo.plugin.zsh
 
