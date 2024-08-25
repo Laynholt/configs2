@@ -121,3 +121,15 @@ alias ls2t=' ls --tree -D -L 3 -I ${TREE_IGNORE}'
 alias ls3t=' ls --tree -D -L 4 -I ${TREE_IGNORE}'
 alias ls4t=' ls --tree -D -L 5 -I ${TREE_IGNORE}'
 alias tree=' exa --tree --group-directories-first --icons --grid'
+
+# utf locale
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# for VIM and TMUX
+if [ "$TERM" = "xterm" ]; then
+  export TERM=xterm-256color
+fi
+#alias tmux='tmux -2u'  # for 256color and to get rid of unicode rendering problem
+

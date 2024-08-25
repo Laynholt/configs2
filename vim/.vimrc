@@ -77,8 +77,11 @@ set noswapfile
 set noshowmode
 let mapleader = " " " map leader to Space
 
-let g:airline_theme='oceanicnext'
-let g:airline_theme='oceanicnext'
+set mouse=a
+
+let g:airline_powerline_fonts = 1
+"let g:airline_theme='oceanicnext'
+let g:airline#extensions#tabline#enabled = 1
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
@@ -233,8 +236,6 @@ endif
 "nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 "" Resume latest coc list.
 "nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
-
-let g:airline_powerline_fonts = 1
 
 " NERD Tree
 " Start NERDTree and leave the cursor in it.
